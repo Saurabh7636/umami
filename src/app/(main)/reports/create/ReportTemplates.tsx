@@ -1,4 +1,5 @@
 import Funnel from 'assets/funnel.svg';
+import Money from 'assets/money.svg';
 import Lightbulb from 'assets/lightbulb.svg';
 import Magnet from 'assets/magnet.svg';
 import Path from 'assets/path.svg';
@@ -50,6 +51,12 @@ export function ReportTemplates({ showHeader = true }: { showHeader?: boolean })
       description: formatMessage(labels.journeyDescription),
       url: renderTeamUrl('/reports/journey'),
       icon: <Path />,
+    },
+    {
+      title: formatMessage(labels.revenue),
+      description: formatMessage(labels.revenueDescription),
+      url: renderTeamUrl('/reports/revenue'),
+      icon: <Money />,
     },
   ];
 

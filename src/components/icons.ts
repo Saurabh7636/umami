@@ -11,6 +11,7 @@ import Dashboard from 'assets/dashboard.svg';
 import Eye from 'assets/eye.svg';
 import Gear from 'assets/gear.svg';
 import Globe from 'assets/globe.svg';
+import Location from 'assets/location.svg';
 import Lock from 'assets/lock.svg';
 import Logo from 'assets/logo.svg';
 import Magnet from 'assets/magnet.svg';
@@ -18,6 +19,7 @@ import Moon from 'assets/moon.svg';
 import Nodes from 'assets/nodes.svg';
 import Overview from 'assets/overview.svg';
 import Profile from 'assets/profile.svg';
+import PushPin from 'assets/pushpin.svg';
 import Reports from 'assets/reports.svg';
 import Sun from 'assets/sun.svg';
 import User from 'assets/user.svg';
@@ -38,6 +40,7 @@ const icons = {
   Eye,
   Gear,
   Globe,
+  Location,
   Lock,
   Logo,
   Magnet,
@@ -45,6 +48,7 @@ const icons = {
   Nodes,
   Overview,
   Profile,
+  PushPin,
   Reports,
   Sun,
   User,
